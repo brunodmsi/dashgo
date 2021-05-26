@@ -1,6 +1,6 @@
 import { Avatar, Box, Flex, Text } from "@chakra-ui/react";
 
-export default function Profile() {
+export function Profile() {
   return (
     <Flex align="center">
       <Box mr="4" textAlign="right">
