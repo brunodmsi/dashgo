@@ -5,13 +5,13 @@ interface PaginationItemProps {
   isCurrent?: boolean;
 }
 
-export function PaginationItem({ 
-  number, 
-  isCurrent = false 
+export function PaginationItem({
+  number,
+  isCurrent = false
 }: PaginationItemProps) {
   if (isCurrent) {
     return (
-      <Button 
+      <Button
         size="sm"
         fontSize="xs"
         width="4"
@@ -25,7 +25,7 @@ export function PaginationItem({
   }
 
   return (
-    <Button 
+    <Button
       size="sm"
       fontSize="xs"
       width="4"

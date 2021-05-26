@@ -1,12 +1,12 @@
-import { 
-  Box, 
-  Button, 
-  Flex, 
-  Heading, 
-  Icon, 
-  Table, 
-  Th, 
-  Thead, 
+import {
+  Box,
+  Button,
+  Flex,
+  Heading,
+  Icon,
+  Table,
+  Th,
+  Thead,
   Tr,
   Checkbox,
   Tbody,
@@ -32,9 +32,9 @@ export default function UserList() {
             <Heading size="lg" fontWeight="normal">Usuários</Heading>
 
             <Button
-              as="a" 
-              size="sm" 
-              fontSize="sm" 
+              as="a"
+              size="sm"
+              fontSize="sm"
               colorScheme="pink"
               leftIcon={<Icon as={RiAddLine} fontSize="20" />}
             >
@@ -56,7 +56,7 @@ export default function UserList() {
             <Tbody>
               <Tr>
                 <Td px="6">
-                  <Checkbox colorScheme="pink" /> 
+                  <Checkbox colorScheme="pink" />
                 </Td>
                 <Td px="6">
                   <Box>
@@ -67,9 +67,9 @@ export default function UserList() {
                 <Td px="6">04 de Abril, 2021</Td>
                 <Td px="6">
                   <Button
-                    as="a" 
-                    size="sm" 
-                    fontSize="sm" 
+                    as="a"
+                    size="sm"
+                    fontSize="sm"
                     colorScheme="purple"
                     leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
                   >

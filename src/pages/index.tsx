@@ -22,7 +22,7 @@ export default function SignIn() {
           <Input
             name="email"
             label="E-mail"
-            type="email" 
+            type="email"
           />
 
           <Input
@@ -31,7 +31,7 @@ export default function SignIn() {
             type="password"
           />
         </Stack>
-        
+
         <Button
           type="submit"
           mt="6"

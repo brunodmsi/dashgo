@@ -1,12 +1,12 @@
-import { 
-  Box, 
-  Divider, 
-  Flex, 
-  Heading, 
-  HStack, 
-  SimpleGrid, 
-  VStack, 
-  Button 
+import {
+  Box,
+  Divider,
+  Flex,
+  Heading,
+  HStack,
+  SimpleGrid,
+  VStack,
+  Button
 } from "@chakra-ui/react";
 import { Input } from "../../components/Form/Input";
 
